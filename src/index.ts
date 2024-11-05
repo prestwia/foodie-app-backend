@@ -11,6 +11,9 @@ server.get('/ping', async (req, res) => {
     return 'pong\n'
 })
 
+/* register routes */
+server.register(require('./routes/reviews.js'), { prefix: '/reviews' })
+
 server.listen({ port: PORT }, (err, address) => {
     if (err) {
         console.log(err)

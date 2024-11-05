@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "restaurant-id": 1,
+        "user-id": 1,
+        "text": "The soup was good."
+    },
+    {
+        "id": 2,
+        "restaurant-id": 2,
+        "user-id": 1,
+        "text": "The bread was stale."
+    },
+    {
+        "id": 3,
+        "restaurant-id": 1,
+        "user-id": 2,
+        "text": "The staff was nice."
+    },
+    {
+        "id": 4,
+        "restaurant-id": 3,
+        "user-id": 3,
+        "text": "The floor was sticky."
+    }
+]
